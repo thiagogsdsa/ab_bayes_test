@@ -11,9 +11,14 @@ This repository implements Bayesian A/B testing for both **proportion** and **me
 
 ## Installation
 
+Install from PyPI 
+```bash 
+pip install ab-bayes-test
+```
+
 Clone the repository directly:
 
-```bash
+```bash 
 git clone https://github.com/thiagogsdsa/ab-bayes-test.git
 cd ab-bayes-test
 ```
@@ -80,8 +85,8 @@ Lift = (theta_treatment / theta_control) - 1
 
 If you notice bugs, issues, or have suggestions for improvement, feel free to open an issue or contact me via email.
 
-**Author:** Thiago Guimarães
-**Email:** [thiago.guimaraes.sto@gmail.com](mailto:thiago.guimaraes.sto@gmail.com)
-**LinkedIn:** [thiagogsdsa](https://www.linkedin.com/in/thiagogsdsa)
-**GitHub:** [thiagogsdsa](https://github.com/thiagogsdsa)
-**Repository:** [ab-bayes-test](https://github.com/thiagogsdsa/ab-bayes-test)
+**Author:** Thiago Guimarães  
+**Email:** [thiago.guimaraes.sto@gmail.com](mailto:thiago.guimaraes.sto@gmail.com)  
+**LinkedIn:** [thiagogsdsa](https://www.linkedin.com/in/thiagogsdsa)  
+**GitHub:** [thiagogsdsa](https://github.com/thiagogsdsa)  
+**Repository:** [ab-bayes-test](https://github.com/thiagogsdsa/ab-bayes-test)  

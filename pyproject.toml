@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=65.5.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ab-bayes-test"
+version = "0.1.0"
+description = "Bayesian A/B Testing for proportions and means"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Thiago Guimarães", email = "thiago.guimaraes.sto@gmail.com" }
+]
+license = { text = "MIT" }
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "pandas>=2.1"
+]
+urls = { 
+    "Homepage" = "https://github.com/thiagogsdsa/ab-bayes-test",
+    "Repository" = "https://github.com/thiagogsdsa/ab-bayes-test",
+    "LinkedIn" = "https://www.linkedin.com/in/thiagogsdsa"
+]
+
+[project.urls]
+Documentation = "docs/pdf/theory.pdf"
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = ["tests*", "examples*"]
